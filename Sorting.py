@@ -1,12 +1,11 @@
 def insertion_sort(lista):
-    for i in range(1, len(lista)):  # percorre de 1 ate o final da lista
-        chave = lista[i]  # recebe o elemento atual da lista
+    for i in range(1, len(lista)):  
+        chave = lista[i]  
         k = i
-        # enquanto o valor atual for menor que o valor anterior
         while k > 0 and chave < lista[k-1]:
             lista[k] = lista[k-1]
             k -= 1
-        lista[k] = chave  # insere na posição ordenada
+        lista[k] = chave  
     return lista
 
 
@@ -20,15 +19,29 @@ def quick_sort(lista):
     
     return quick_sort(left) +meio+ quick_sort(right)
 
-
+def counting_sort(lista):
+    count = []
+    for i in range(10):
+        count.append(0)     
+    for y in lista:
+        count[y] += 1
+    for i in range(1,len(count)):
+        count[i] += count[i-1]
+    for x in lista:
+        index = count[x-1]
+        lista[index] = x
+    return lista
+   
+   
 def teste(x):
-    lista = [1, 4, 5, 77, 6, 55, 4, 3, 333, 3, 22, 1, 12, 2, 2, 1]
+    lista = [1, 4, 5, 3, 1, 1, 2, 2, 1]
     print(lista)
 
     print({
         'insertion_sort': insertion_sort(lista),
-        'quick_sort': quick_sort(lista)
+        'quick_sort': quick_sort(lista),
+        'counting_sort': counting_sort(lista)
     }[x])
 
 
-teste('quick_sort')
+teste('counting_sort')
