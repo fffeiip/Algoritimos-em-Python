@@ -34,19 +34,17 @@ def counting_sort(lista):
         count[y] += 1
     for i in range(1,len(count)):
         count[i] += count[i-1]
-    print(count)
     for x in lista:
-        print("X in lista")
-        print(x)
-        print("count[x-1]:")
-        print(count[x-1])
+        print("X in lista:",x)
+        print("count[x-1]:",count[x-1])
         index = count[x-1]
-        print("index")
-        print(index)
+        print("index:",index)
         lista[index] = x
-        print(lista)
+        print("lista:",[3,4,1,2,2,3,5,4,2])
+        print("lista que mudou",lista)
+        print("count",count)
     print(lista)
-    # return lista
+    # return lista [0, 1, 4, 6, 8, 9, 9, 9, 9, 9] [3,4,1,2,2,3,5,4,2]
    
 def bubble_sort(lista):
     print(lista)
