@@ -4,4 +4,4 @@ lista1 = [1, 4, 5, 3, 1, 1, 2, 29,2,3,455,6,7,788,7,6,55,4,6,7,55,3,21,4,2,6,767
 lista2 = [4,5,1,11,2,3,1,1,6,4,2]
 # bubble_sort(lista2)
 # insertion_sort(lista2)
-counting_sort(lista = lista2,max_value = 11)
+print(counting_sort(lista = lista1))
