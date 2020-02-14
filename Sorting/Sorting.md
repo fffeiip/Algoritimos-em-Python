@@ -1,6 +1,6 @@
 # Sorting
 
-### Counting Sort
+### <a name="counting"></a>Counting Sort
 
 
 #### O Counting sort é um algoritimo de ordenação de inteiros que assume cada um dos elementos da lista tem uma chave cujo valor está dentro de um intervalo máximo, ou seja, chaves que podem se repetir e que seu valor seja inferior ao maior elemento da lista. Ele funciona contando a quantidade de repetições dos elementos com chaves distintas e depois realiza um cálculo aritimético para determinar o posicionamento na lista ordenada.
@@ -37,6 +37,21 @@ O(k+n) | O(k+n) | O(k+n) |O(k+n)
 
 
 ### <a name="radix"></a> Radix Sort
+#### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:construction: :construction:
+
+### <a name="bubble"></a> Bubble Sort
+#### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:construction: :construction:
+
+### <a name="insertion"></a> Insertion Sort
+#### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:construction: :construction:
+
+### <a name="quick"></a> Quick Sort
 #### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 :construction: :construction:
