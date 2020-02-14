@@ -6,8 +6,8 @@ Algoritimo | Pior Caso | Melhor caso | Caso Medio
 -----------|-------- | ---|---
 [Counting Sort](./Sorting/Sorting.md/#counting) | O(k+n) | O(k+n)| O(k+n)
 [Bubble Sort](./Sorting/Sorting.md/#bubble) | O(n²) | O(n) | O(n²)
-[Quick Sort](./Sorting/Sorting.md/'#quick) | O(n²) | O(n²) | O(nlogn)
-[Insertion Sort](./Sorting/Sorting.md/'#insertion) | O(n²) | O(n) | O(²n)
+[Quick Sort](./Sorting/Sorting.md/#quick) | O(n²) | O(n²) | O(nlogn)
+[Insertion Sort](./Sorting/Sorting.md/#insertion) | O(n²) | O(n) | O(²n)
 [Radix Sort](./Sorting/Sorting.md/#radix) | O(nk)| :construction: | :construction:
 
 
