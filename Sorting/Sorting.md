@@ -2,7 +2,7 @@
 
 
 ### <a name="bubble"></a> Bubble Sort
-#### O bubble sort é conhecido por ser um algoritimo de força bruta, eles funciona percorrendo todos os elementos da lista, comparando os elementos adjacentes e trocando aqueles que estejam fora de ordem. 
+#### O bubble sort é conhecido por ser um algoritimo de força bruta, ele funciona percorrendo todos os elementos da lista, comparando os elementos adjacentes e trocando aqueles que estejam fora de ordem. 
 
 * Se a lista a ser ordenada possui n elementos, ele a percorre n-1 vezes.
 * O algoritimo é conhecido como bubble sort porquê para cada iteração, o elemento de maior valor é movido ao final da lista, trocando de posição 1 a 1, como bolhas emergindo à superfície. 
