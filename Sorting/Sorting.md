@@ -29,10 +29,9 @@ def counting_sort(lista):
     return lista
 ```
 
-[logo]: https://github.com/fffeiip/Algoritimos-em-Python/tree/master/Sorting/assets/hrUDdYC7OH-countingsort.gif "Counting Sort"
 
-Reference-style: 
-![alt text][logo]
+![Couting Sort ][logo]
+[logo]: https://github.com/fffeiip/Algoritimos-em-Python/tree/master/Sorting/assets/hrUDdYC7OH-countingsort.gif "Counting Sort"
 
 
 
