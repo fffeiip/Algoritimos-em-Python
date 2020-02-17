@@ -1,5 +1,32 @@
 # Sorting
 
+
+### <a name="bubble"></a> Bubble Sort
+#### O bubble sort é conhecido por ser um algoritimo de força bruta, eles funciona percorrendo todos os elementos da lista, comparando os elementos adjacentes e trocando aqueles que estejam fora de ordem. 
+
+* Se a lista a ser ordenada possui n elementos, ele a percorre n-1 vezes.
+* O algoritimo é conhecido como bubble sort porquê para cada iteração, o elemento de maior valor é movido ao final da lista, trocando de posição 1 a 1, como bolhas emergindo à superfície. 
+
+```python
+def bubble_sort(lista):
+    for x in range(1,len(lista)):
+        print(lista)
+        if lista[x-1] > lista[x]:
+            lista[x-1],lista[x] = lista[x],lista[x-1]
+            bubble_sort(lista)
+    return lista
+```
+
+[logo]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/bubblesort.gif "Bubble Sort"
+
+![Bubble Sort ][logo]
+
+
+Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço  
+------- | ------- |----|-------
+O(n) | O(n²) | O(n²) |O(1)
+
+
 ### <a name="counting"></a>Counting Sort
 
 
@@ -29,7 +56,7 @@ def counting_sort(lista):
     return lista
 ```
 
-[logo]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/hrUDdYC7OH-countingsort.gif "Counting Sort"
+[logo]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/countingsort.gif "Counting Sort"
 
 ![Couting Sort ][logo]
 
@@ -44,10 +71,8 @@ O(k+n) | O(k+n) | O(k+n) |O(k+n)
 
 :construction: :construction:
 
-### <a name="bubble"></a> Bubble Sort
-#### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-:construction: :construction:
+
 
 ### <a name="insertion"></a> Insertion Sort
 #### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
