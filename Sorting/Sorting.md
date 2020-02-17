@@ -17,9 +17,9 @@ def bubble_sort(lista):
     return lista
 ```
 
-[logo]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/bubblesort.gif "Bubble Sort"
+[bubble_sort]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/bubblesort.gif "Bubble Sort"
 
-![Bubble Sort ][logo]
+![Bubble Sort ][bubble_sort]
 
 
 Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço  
@@ -56,9 +56,9 @@ def counting_sort(lista):
     return lista
 ```
 
-[logo]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/countingsort.gif "Counting Sort"
+[counting_sort]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/countingsort.gif "Counting Sort"
 
-![Couting Sort ][logo]
+![Couting Sort ][counting_sort]
 
 
 Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço  
