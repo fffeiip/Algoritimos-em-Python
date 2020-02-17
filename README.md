@@ -14,3 +14,4 @@ Algoritimo | Pior Caso | Melhor caso | Caso Medio
 Links de Referências
 * https://www.geeksforgeeks.org/sorting-algorithms/
 * https://brilliant.org/wiki/sorting-algorithms/
+* https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
