@@ -3,11 +3,11 @@
 ### <a name="counting"></a>Counting Sort
 
 
-#### O Counting sort é um algoritimo de ordenação de inteiros que assume cada um dos elementos da lista tem uma chave cujo valor está dentro de um intervalo máximo, ou seja, chaves que podem se repetir e que seu valor seja inferior ao maior elemento da lista. Ele funciona contando a quantidade de repetições dos elementos com chaves distintas e depois realiza um cálculo aritimético para determinar o posicionamento na lista ordenada.
+#### O Counting sort é um algoritimo de ordenação de inteiros. Ele funciona contando a quantidade de repetições dos elementos dentro de um intervalo [0,k] = {k ∈ N }, onde k é o maior elemento da lista. Em seguida, realiza um cálculo aritimético para determinar o posicionamento do elemento na lista ordenada.
 
-* O counting sort é eficiente se o intervalo de valors não for significativamente maior que o número de objetos ordenados.
+* O counting sort é eficiente se o intervalo de valores não for significativamente maior que o número de objetos ordenados.
 * Não é uma ordenação baseada em comparações. Ele executa em complexidade O(n), com espaço proporcional ao intervalo de dados.
-* É comumente utilizado como sub-rotina de outro algorítimo de ordenação, tipo o [radix sort](#radix).
+* É comumente utilizado como sub-rotina de outro algorítimo de ordenação, e.g. [radix sort](#radix).
 * O Counting sort utiliza uma técnica de hashing parcial para contar as ocorrencias dos elementos na lista.
 * O Counting sort pode ser modificado para funcionar com inputs negativos.
 

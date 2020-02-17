@@ -11,6 +11,6 @@ Algoritimo | Pior Caso | Melhor caso | Caso Medio
 [Radix Sort](./Sorting/Sorting.md/#radix) | O(nk)| :construction: | :construction:
 
 
-Links de Referência
+Links de Referências
 * https://www.geeksforgeeks.org/sorting-algorithms/
 * https://brilliant.org/wiki/sorting-algorithms/
