@@ -89,7 +89,7 @@ def quick_sort(lista):
  ```
 
 
-[quick_sorto]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/quicksort.gif "Quick Sort"
+[quick_sort]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/quicksort.gif "Quick Sort"
 
 ![Quick Sort ][quick_sort]
 
