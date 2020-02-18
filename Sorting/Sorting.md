@@ -65,6 +65,40 @@ Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço
 O(k+n) | O(k+n) | O(k+n) |O(k+n)
 
 
+
+### <a name="quick"></a> Quick Sort
+#### O Quick sort é um algoritimo que utiliza a técnica de divisão e consquista, que consiste em recursivamente dividir um problema em subproblemas e resolvê-los, até que o problema principal possa ser resolvido. Na estratégia do algoritimo, um elemento pivô é selecionado e os outros elementos com valores inferiores a ele são recursivamente ordenados e concatenados à sua esquerda enquanto os elementos com valores maiores são ordenados e concatenados à sua direita.
+
+* Existem diversas estratégias para selecionar o elemento pivô 
+    * Elemento do meio
+    * Primeiro elemento
+    * Ultimo elemento
+    * Elemento aleatório 
+* O quicksort é bem lento para seu pior caso, contudo, para o melhor caso e o caso médio é um algorítimo veloz. 
+
+``` python
+def quick_sort(lista):
+    if len(lista) == 0:
+        return lista
+    pivot = len(lista)//2
+    esquerda = [x for x in lista if x < lista[pivot]]
+    meio = [x for x in lista if x == lista[pivot]]    
+    direita = [x for x in lista if x > lista[pivot]]
+    
+    return quick_sort(esquerda) +meio+ quick_sort(direita)
+ ```
+
+
+[quick_sorto]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/quicksort.gif "Quick Sort"
+
+![Quick Sort ][quick_sort]
+
+
+Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço  
+------- | ------- |----|-------
+O(n log n) | O(n log n) | O(n²) |O(n)
+
+
 ### <a name="radix"></a> Radix Sort
 #### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -74,11 +108,6 @@ O(k+n) | O(k+n) | O(k+n) |O(k+n)
 
 
 ### <a name="insertion"></a> Insertion Sort
-#### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-:construction: :construction:
-
-### <a name="quick"></a> Quick Sort
 #### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 :construction: :construction:
