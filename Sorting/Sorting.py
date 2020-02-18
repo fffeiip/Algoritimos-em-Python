@@ -13,11 +13,11 @@ def quick_sort(lista):
     if len(lista) == 0:
         return lista
     pivot = len(lista)//2
-    left = [x for x in lista if x < lista[pivot]]
+    esquerda = [x for x in lista if x < lista[pivot]]
     meio = [x for x in lista if x == lista[pivot]]    
-    right = [x for x in lista if x > lista[pivot]]
+    direita = [x for x in lista if x > lista[pivot]]
     
-    return quick_sort(left) +meio+ quick_sort(right)
+    return quick_sort(esquerda) +meio+ quick_sort(direita)
 
 
 def counting_sort(lista):
