@@ -1,6 +1,5 @@
 def insertion_sort(lista):
     for i in range(1, len(lista)):  
-        print(lista)
         chave = lista[i]  
         k = i
         while k > 0 and chave < lista[k-1]:
@@ -18,7 +17,6 @@ def quick_sort(lista):
     meio = [x for x in lista if x == lista[pivot]]    
     right = [x for x in lista if x > lista[pivot]]
     
-    print(quick_sort(left) +meio+ quick_sort(right))
     return quick_sort(left) +meio+ quick_sort(right)
 
 
@@ -40,7 +38,6 @@ def counting_sort(lista):
    
 def bubble_sort(lista):
     for x in range(1,len(lista)):
-        print(lista)
         if lista[x-1] > lista[x]:
             lista[x-1],lista[x] = lista[x],lista[x-1]
             bubble_sort(lista)

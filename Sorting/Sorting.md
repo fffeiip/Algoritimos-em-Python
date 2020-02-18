@@ -10,7 +10,6 @@
 ```python
 def bubble_sort(lista):
     for x in range(1,len(lista)):
-        print(lista)
         if lista[x-1] > lista[x]:
             lista[x-1],lista[x] = lista[x],lista[x-1]
             bubble_sort(lista)
