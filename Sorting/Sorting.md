@@ -69,10 +69,10 @@ O(k+n) | O(k+n) | O(k+n) |O(k+n)
 ### <a name="quick"></a> Quick Sort
 #### O Quick sort é um algoritimo que utiliza a técnica de divisão e consquista, que consiste em recursivamente dividir um problema em subproblemas e resolvê-los, até que o problema principal possa ser resolvido. Na estratégia do algoritimo, um elemento pivô é selecionado e os outros elementos com valores inferiores a ele são recursivamente ordenados e concatenados à sua esquerda enquanto os elementos com valores maiores são ordenados e concatenados à sua direita.
 
-* Existem diversas estratégias para selecionar o elemento pivô 
+* Existem diversas estratégias para selecionar o elemento pivô da lista
     * Elemento do meio
     * Primeiro elemento
-    * Ultimo elemento
+    * Último elemento
     * Elemento aleatório 
 * O quicksort é bem lento para seu pior caso, contudo, para o melhor caso e o caso médio é um algorítimo veloz. 
 
