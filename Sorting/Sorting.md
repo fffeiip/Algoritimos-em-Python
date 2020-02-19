@@ -1,7 +1,7 @@
 # Sorting
 
 
-### <a name="bubble"></a> Bubble Sort
+### **<a name="bubble"></a> Bubble Sort**
 #### O bubble sort é conhecido por ser um algoritimo de força bruta, ele funciona percorrendo todos os elementos da lista, comparando os elementos adjacentes e trocando aqueles que estejam fora de ordem. 
 
 * Se a lista a ser ordenada possui n elementos, ele a percorre n-1 vezes.
@@ -26,7 +26,7 @@ Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço
 O(n) | O(n²) | O(n²) |O(1)
 
 
-### <a name="counting"></a>Counting Sort
+### **<a name="counting"></a>Counting Sort**
 
 
 #### O Counting sort é um algoritimo de ordenação de inteiros. Ele funciona contando a quantidade de repetições dos elementos dentro de um intervalo [0,k] = {k ∈ N }, onde k é o maior elemento da lista. Em seguida, realiza um cálculo aritimético para determinar o posicionamento do elemento na lista ordenada.
@@ -66,7 +66,7 @@ O(k+n) | O(k+n) | O(k+n) |O(k+n)
 
 
 
-### <a name="quick"></a> Quick Sort
+###  **<a name="quick"></a> Quick Sort**
 #### O Quick sort é um algoritimo que utiliza a técnica de divisão e consquista, que consiste em recursivamente dividir um problema em subproblemas e resolvê-los, até que o problema principal possa ser resolvido. Na estratégia do algoritimo, um elemento pivô é selecionado e os outros elementos com valores inferiores a ele são recursivamente ordenados e concatenados à sua esquerda enquanto os elementos com valores maiores são ordenados e concatenados à sua direita.
 
 * Existem diversas estratégias para selecionar o elemento pivô da lista
@@ -99,15 +99,35 @@ Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço
 O(n log n) | O(n log n) | O(n²) |O(n)
 
 
+### **<a name="insertion"></a> Insertion Sort**
+#### O Insertion sort tem a estratégia de para cada elemento da lista, compará-lo a um com os elementos anteriores e o inserir na posição posterior ao elemento de valor menor ao seu.
+
+* Para cada elemento A[i], se A[i] > A[i+1], trocar valores até que A[i] ≤ A[i+1].
+
+```python
+def insertion_sort(lista):
+    for i in range(1, len(lista)):  
+        chave = lista[i]  
+        k = i
+        while k > 0 and chave < lista[k-1]:
+            lista[k] = lista[k-1]
+            k -= 1
+        lista[k] = chave  
+    return lista
+```
+
+[insertion_sort]: https://github.com/fffeiip/Algoritimos-em-Python/raw/master/Sorting/assets/insertionsort.gif "Insertion Sort"
+
+![Insertion sort ][insertion_sort]
+
+
+Melhor Caso| Caso Médio | Pior Caso | Complexidade de Espaço  
+------- | ------- |----|-------
+O(n) | O(n²) | O(n²) |O(1)
+
 ### <a name="radix"></a> Radix Sort
 #### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 :construction: :construction:
 
 
-
-
-### <a name="insertion"></a> Insertion Sort
-#### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-:construction: :construction:
